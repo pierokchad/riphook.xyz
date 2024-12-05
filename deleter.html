@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>riphook.xyz</title>
+      <link rel="stylesheet" href="./assets/css/style.css">
+   </head>
+   <body>
+      <div class="center-align">
+         <div id="header">
+            <a href="/" style="text-decoration: none;">
+               <h1>riphook.xyz</h1>
+            </a>
+            <h2>web-based discord multitool</h2>
+         </div>
+         <div id="container">
+            <p style="font-family: Arial, Helvetica, sans-serif; color: #ffffff"></p>
+            <input type="text" id="link" placeholder="webhook url*" autocomplete="off">
+            <p>
+               <input type="submit" id="deleter" value="submit" onclick="sendrequest()">
+            </p>
+         </div>
+         <footer>
+            (c) <script>document.write(new Date().getFullYear())</script> pierok.xyz
+         </footer>
+      </div>
+      
+      <script src="./assets/js/deleter.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+   </body>
+</html>
